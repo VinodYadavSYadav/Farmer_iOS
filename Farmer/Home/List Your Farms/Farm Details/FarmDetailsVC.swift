@@ -72,6 +72,8 @@ class FarmDetailsVC: UIViewController, UITextFieldDelegate, UICollectionViewDele
         let cell = socialMediaCV.dequeueReusableCell(withReuseIdentifier: "socialMedia", for: indexPath) as! SocialMediaCollectionViewCell
         cell.sociaMediaName.text = listOfSocialMedia[indexPath.item]
         cell.sociaMediaImage.image = socialMediaList[indexPath.item]
+        
+        //
 
         return cell
     }
